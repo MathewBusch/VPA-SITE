@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/page-style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/hexagons.min.css"> 
+
+
+    <title>VPA</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+
+
+	<!-- for FF, Chrome, Opera -->
+	<link rel="icon" type="image/png" href="Icons/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="Icons/favicon-32x32.png" sizes="32x32">
+
+	<!-- for IE -->
+	<link rel="icon" type="image/x-icon" href="Icons/favicon.ico" >
+	<link rel="shortcut icon" type="image/x-icon" href="Icons/favicons/favicon.ico"/>
+
+		<style>
+
+			div.clients {
+			      display:inline-block;
+			    }
+
+			    
+			
+			form{
+				display:inline-block;
+			}
+
+	
+
+			.button {
+			  -webkit-border-radius: 60;
+			  -moz-border-radius: 60;
+			  border-radius: 60px;
+			  font-family: Arial;
+			  color: #ffffff;
+			  font-size: 14px;
+			  background: #3498db;
+			  padding: 6px 6px 6px 6px;
+			  text-decoration: none;
+			}
+
+			.button:hover {
+			  background: #3cb0fd;
+			  text-decoration: none;
+			}
+
+			@media (max-width: 768px) {
+			.vpalogo {
+			display: none;
+			}
+			}
+
+			.googlemap{
+				  display:inline-block;
+			    float: left;
+			}
+			
+		</style>
+
+
+
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-71687877-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M2FVW7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2FVW7');</script>
+<!-- End Google Tag Manager -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                <img src="img/new-VPA-MAT-WEBSITE.png" alt="VPA LOGO" align="center" height="313" width="393" class = "vpalogo" >
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#intro">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+		<li><a href="#service">Services</a></li>
+		<li><a href="#Products">Products</a></li>
+		<li><a href="#clients">Clients</a></li>
+		<li><a href="#contact">Contact</a></li>
+        
+        </div>
+        <!-- /.container -->
+
+
+    </nav>
+
+    <!-- Section: intro -->
+    <section id="intro">
+
+    <div style="min-height: 50px;">
+
+    <!-- Jssor Slider Begin -->
+        <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+        <!-- ================================================== -->
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+                <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+            </div>
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                <div>
+                    <img u="image" src2="img/shutterstock_257403475.jpg" />
+                </div>
+
+                <div>
+                    <img u="image" src2="img/shutterstock_281389877.jpg" />
+                </div>
+
+                <div>
+                    <img u="image" src2="img/shutterstock_6006058.jpg" />
+                </div>
+
+                <div>
+                    <img u="image" src2="img/shutterstock_350550500.jpg" />
+                </div>
+
+                <div>
+                    <img u="image" src2="img/shutterstock_344991695.jpg" />
+                </div>
+            </div>
+            
+            
+            <style>
+                
+                .jssorb21 {
+                    position: absolute;
+                }
+                .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
+                    position: absolute;
+                    /* size of bullet elment */
+                    width: 19px;
+                    height: 19px;
+                    text-align: center;
+                    line-height: 19px;
+                    color: white;
+                    font-size: 12px;
+                    background: url(img/b21.png) no-repeat;
+                    overflow: hidden;
+                    cursor: pointer;
+                }
+                .jssorb21 div { background-position: -5px -5px; }
+                .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+                .jssorb21 .av { background-position: -65px -5px; }
+                .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+            </style>
+            <!-- bullet navigator container -->
+            <div u="navigator" class="jssorb21" style="bottom: 26px; right: 6px;">
+                <!-- bullet navigator item prototype -->
+                <div u="prototype"></div>
+            </div>
+            <!--#endregion Bullet Navigator Skin End -->
+            
+            <!--#region Arrow Navigator Skin Begin -->
+            
+            <style>
+                
+                .jssora21l, .jssora21r {
+                    display: block;
+                    position: absolute;
+                    /* size of arrow element */
+                    width: 55px;
+                    height: 55px;
+                    cursor: pointer;
+                    background: url(img/a21.png) center center no-repeat;
+                    overflow: hidden;
+                }
+                .jssora21l { background-position: -3px -33px; }
+                .jssora21r { background-position: -63px -33px; }
+                .jssora21l:hover { background-position: -123px -33px; }
+                .jssora21r:hover { background-position: -183px -33px; }
+                .jssora21l.jssora21ldn { background-position: -243px -33px; }
+                .jssora21r.jssora21rdn { background-position: -303px -33px; }
+            </style>
+            <!-- Arrow Left -->
+            <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;">
+            </span>
+            <!-- Arrow Right -->
+            <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;">
+            </span>
+            <!--#endregion Arrow Navigator Skin End -->
+            <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        </div>
+        <!-- Jssor Slider End -->
+    </div>
+
+	
+
+    	
+
+
+		<div class="page-scroll">
+			<a href="#service" class="btn btn-circle">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+    </section>
+	<!-- /Section: intro -->
+
+
+	<!-- Section: about -->
+    <section id="about" class="home-section text-center">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>About us</h2>
+
+					<p>Born out of a passion for sport and a love for coaching, VPA burst onto the scene in 2013 as a tech startup developed by a young sport science graduate looking to provide a development pathway for talented junior athletes in his local sporting community.   From learning how to operate a basic camera, to comprehensive research into the current landscape of technologies surrounding sport and coaching in Australia- Luke and VPA's growing team of young entrepreneurs had their work cut out for them.   VPA now encompasses a range of core products, services and technologies that operate within a developing sport and broadcast landscape.   The team provides professional and complete technology solutions such as live streaming and production services, online management and content distribution systems, venue and facility infrastructure installations for broadcast AND analysis, as well as integrating new technologies focusing on the emerging landscape of digital content commercialisation.   Check out VPA's clients and services page to find out more and don't forget to reach out via the contact page if anything here excites you.   </p>
+
+					<h3>Meet The Team</h3>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.2s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Luke McCoy</h5>
+                        <p class="subtitle">Founder and Managing Director</p>
+                        <p></p>
+                        <div class="avatar"><img src="img/team/luke-web-image.jpg" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.5s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Mathew Busch</h5>
+                        <p class="subtitle">Production and Development</p>
+                        <div class="avatar"><img src="img/team/mat-web-image.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.8s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Aaron Leslie</h5>
+                        <p class="subtitle">Design and Production</p>
+                        <div class="avatar"><img src="img/team/aaron.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="1s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Adam Burke</h5>
+                        <p class="subtitle">Head of Technology</p>
+                        <div class="avatar"><img src="img/team/adam-burke.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div>
+        </div>		
+		</div>
+	</section>
+	<!-- /Section: about -->
+
+	<!-- Section: services -->
+    <section id="service" class="home-section text-center bg-gray">
+		
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Our Services</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/clapperboard6.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Production/Film</h5>
+						<p><center>-4K + HD -Post Production <br>
+						   -TV quality editing and experience <br>
+						   -Digital and on-demand<br>
+						   -Video content Analysis <br>
+						   -Social Media distributuion stategies Distribution<br>
+						</center></p>
+						<a class="button" href="https://www.youtube.com/watch?v=_XnWRs_ICaw" target="_blank">Example Video</a>
+
+					</div>
+                </div>
+				</div>
+            </div>
+           
+			<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/video11.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Live Streaming</h5>
+
+						<p><center>-Full HD -Multi Camera -Complex Graphics -Data integration <br>
+						   -Pre-Production -Event and Review and analysis -Social Media Integration <br>
+						   -Highlight Packages  (dot points under livestream graphic<br>
+						</center></p>
+
+
+						<a class="button" href="https://www.youtube.com/watch?v=B9vVz_AbmbA" target="_blank">Example Video</a>
+
+					</div>
+                </div>
+				</div>
+            </div>
+                       
+      			<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/service-icon-3.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Team/Club Solutions</h5>
+						<p><center>-Stream<br>
+						   -Analyze<br>
+						   -Engage<br>
+						   -commercialise</center></p>
+						   
+						   	<a class="button" href="https://www.youtube.com/watch?v=ClMqhP4UyYY" target="_blank" >Example Video</a>  																		   
+					</div>
+                </div>
+				</div>
+            </div>
+            
+       
+			<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/service-icon-4.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Gear Hire</h5>
+						<p><center>-HD - Broadcast Cameras<br>
+						   -DSLR Cameras<br>
+						   -Tripods/Gimble<br>
+						   -Camera mount masts 2-18 meteres<br>
+						   -Wide angle and zoom cameras
+						   </center></p>
+					</div>
+                </div>
+				</div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+						<h2>Our Motto</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+					<p>From the very start we set up our core values as to what the best recipe is in order to offer the best Team/Club solutions.<br>
+						<strong>Stream, Analyze, Engage, Commercialise,</strong> below is a breakdown of these core services. </p>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/service-icon-2.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Stream</h5>
+						<p><center>-Infrastrucutre Installations <br>
+							-HD -Wide Angle<br>
+							 -Birds Eye view<br>
+						   </center></p>
+					</div>
+                </div>
+				</div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/analyze.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Analyze</h5>
+						<p><center>-Review <br>
+							-Code <br>
+							-Highlight <br>
+							-GameDay <br>
+							-Live <br>
+							-Post Match<br>
+						   </center></p>
+					</div>
+                </div>
+				</div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/engage.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Engage</h5>
+						<p><center>-SearchTV, SportsLocker <br>
+							-Club Management System <br>
+							-Private user/admin platform<br>
+							  -Coach/player online interaction<br>
+						   </center></p>
+					</div>
+                </div>
+				</div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/commercialise.png" alt="" />
+					</div>
+					<div class="service-desc">
+						
+						<h5>Commercialise</h5>
+						<p><center>-Online Distribution platform  <BR>
+							-Public <BR>
+							-Pay Per View -Subscription <br>
+							-SearchTV <br>
+							-Club.SearchTV<br>
+						   </center></p>
+					</div>
+                </div>
+				</div>
+            </div>
+
+            
+        </div>		
+		</div>
+	</section>
+	<!-- /Section: services -->
+
+
+
+
+
+
+	<!-- Section: Products -->
+    <section id="Products" class="home-section text-center">
+		
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Products</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+					<h3>Sports AV</h3>
+					</div>
+
+					<p>We are the one and only, exclusive and authorised Australian and New Zealand distributor of the famous <a href="http://www.sportav.co.uk/">SportAV.co.uk</a> and <a href="http://provispo.com/">Provispo.com</a> products.   From 6-20m portable and fixed SportsMasts suitable for a range of different solutions at different price points, to a professional  and dyanmic range of SportsCams for a multitude of sporting solutions and venues, incorporating both IP and network solutions as well as SDI solutions for integration with broadcast and analysis systems.   Don't forget to ask about and check out the new Provispo Panofield solution, including the award winning AutoZoom software developed by Remco Van Leeuwen.     </p>
+
+
+
+					<h3>Purchase & Hire</h3>
+					<p>We have various Sports AV products and solutions availible for both purchase and rent for all enquiries please send us an email using the contact form below.</p>
+					<img src="img/MAST.jpg" alt="mast-img" />
+					<img src="img/Screenshot 2015-12-22 11.48.51.png" alt="mast-img" />
+					<br>
+					<br>
+					<br>
+					<p>If you would like us to come to your club and show you the potential of this equipment first hand, send us an email asking for a live demo using the contact details at the bottom of the page.</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					
+					<h2>VPA Technologies</h2>
+					<h3>Coming Soon!</h3>
+					<p>Technologies owned and developed in-house by the VPA Development Team </p>
+					
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+		
+	</section>
+	<!-- /Section: products -->
+
+		<!-- Section: clients -->
+    <section id="clients" class="home-section text-center bg-gray">
+		
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Clients</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+					<p> We have worked with all sorts of clients from various fields incuding Sports Coprorate events and business to business, and can redily adapt to any new challenges that may arise. Have a look at the logos below for a brief idea on who we have had the pleasure of working with.</P
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="clients"><img src="img/CLIENT-LOGOS/GWS_Giants_logo.svg.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/CCF_logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/WARRIORS.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/Newcastle Rugby League logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/MelbourneFootballClubLogo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/ENTERTAINUS.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/FOOTBALL-NSW.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/EQ_300x300.png" alt=""  /></div>
+		<br>
+
+		<div class="clients"><img src="img/CLIENT-LOGOS/athletics-aus-logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/alphaFit-Logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/Athletics_NSW.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/Auckland Cricket Logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/Epicentre-logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/FOOSBALL-FED-AUS.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/fremantle_logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/gcbss.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/GHFA-Logo.png" alt=""  /></div>
+
+		<br>
+		<div class="clients"><img src="img/CLIENT-LOGOS/Logo South_Sydney_Rabbitohs.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/nothern-tigers-logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/penny-skate.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/persuit communications.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/sydney-kings-logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/viocorp-logo.png" alt=""  /></div>
+
+		<br>
+		<div class="clients"><img src="img/CLIENT-LOGOS/s4h-logo.png" alt=""  /></div>
+		<div class="clients"><img src="img/CLIENT-LOGOS/Search4Health_logo_web.png" alt=""  /></div>
+	
+        </div>		
+		</div>
+	</section>
+	<!-- /Section: Clients -->
+	
+
+	
+
+	<!-- Section: contact -->
+   <section id="contact" class="home-section text-center">
+		<div class="heading-contact">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Get in touch</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="boxed-grey">
+                <form action="contact.php" name="contactform"  method="post" id="contact-form">
+					<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="name"> Name</label>
+									
+										<input id="name" class="form-control" type="text" name="first_name" placeholder="Enter you name"/> 
+									
+								</div>
+								<div class="form-group">
+									 <label for="email">Email Address</label>
+									<div id="input_email" class="input-group">
+										<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+										<input id="email" class="form-control" type="text" name="email" placeholder="Enter your email" /> 
+									</div>
+								</div>	
+								
+								<div class="form-group">
+									<label for="subject"> Subject</label>
+									
+										<input id="subject" class="form-control" type="text" name="subject" placeholder="Subject"/> 
+									
+								</div>
+								
+								</div>
+							
+								<div class="col-md-6">		
+								<div id="input_message" class="col-md-12">
+										<textarea id="comments" class="form-control" name="message" rows="6" placeholder="Your Suggestion ..."></textarea>
+									</div> 
+								</div>
+									<!-- Submit Button -->
+									<div class="col-md-12">
+									
+										<input class="btn btn-skin pull-right" type="submit" value="Send Message" id="submit">
+									</div>
+									
+								</div>
+					
+								</form>	
+            </div>
+        </div>
+		
+		
+        
+				
+
+
+				<h5><center>Main Office</center></h5>
+				<address>
+				  <strong>VPA Productions</strong><br>
+				 3/15 Bon Mace CL <br>
+				  Berkely Vale, NSW, 2261<br>
+				  <abbr title="Phone">P:</abbr>
+				  <a href="tel:0409712175">0409712175</a> 
+				</address>
+
+				<address><center>
+				  <strong>Email</strong><br>
+				  <a href="mailto:info@vpaproductions.com.au">info@vpaproductions.com.au</a>
+				</address>
+				<address>
+				 <strong>We're on social networks</strong><br>
+              
+				<div class="container text-center">
+	
+
+						<!-- Extra Small Buttons spin-icon -->
+						<a href="https://www.facebook.com/VirtualPerformanceAnalysis/"><span class="hb hb-xs spin-icon"><i class="fa fa-facebook"></i></span></a>
+						<a href="https://twitter.com/VPALIVE?lang=en"><span class="hb hb-xs spin-icon"><i class="fa fa-twitter"></i></span></a>
+						<a href="https://plus.google.com/109563924342710326331/about"><span class="hb hb-xs spin-icon"><i class="fa fa-google-plus"></i></span></a>
+						<a href="https://www.youtube.com/user/VPATubeTV"><span class="hb hb-xs spin-icon"><i class="fa fa-youtube"></i></span></a>  
+						
+						<!--  Extra Small Buttons spin-icon  End -->
+						
+					
+						
+					</div><!-- /.container -->
+
+					<iframe class="googlemap" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="1200" height="400" src="https://maps.google.com/maps?hl=en&q=3/15 Bon Mace Close Berkely Vale NSW 2261&ie=UTF8&t=satellite&z=14&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div><div><small><a href="http://premiumlinkgenerator.com">premium link generator for 2016</a></small></div></iframe>
+				</address>
+				
+				
+	
+	
+	</section>
+	<!-- /Section: contact -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="wow shake" data-wow-delay="0.4s">
+					<div class="page-scroll marginbot-30">
+						<a href="#intro" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+					</div>
+					<p>&copy;Copyright 2015 - Virtual Performance Analysis PTY LTD.</p>
+				</div>
+			</div>	
+		</div>
+
+	</footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+	<script src="assets/js/hexagons.min.js"></script>
+
+   <!-- Slider Script -->
+   <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- jssor slider scripts-->
+    <!-- use jssor.slider.debug.js for debug -->
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+
+
+
+
+	<script>
+             jQuery(document).ready(function ($) {
+
+            var options = {
+                $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
+                $SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+              
+                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
+                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+                    $SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+                    $SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+                    $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+                    $Scale: false                                   //Scales bullets navigator or not while slider scale
+                },
+
+                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+       </script>
+
+</body>
+
+</html>
+
+
+
