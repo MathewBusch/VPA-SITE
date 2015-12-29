@@ -1,0 +1,9 @@
+image[src="index_videolb/back.png"] {
+    width:650px;
+}
+#voverlay {
+    padding:5px;
+}
+#voverlay a.close {
+    display: none;
+}
